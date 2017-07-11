@@ -1,0 +1,13 @@
+<ion-view>
+  <ion-content class="padding">
+    <div data-ng-repeat="song in vm.songs">
+      <div class="item item-image">
+        <img data-ng-src="{{song.image_large}}" alt="">
+        <div class="item">
+          <h3>{{song.title}}</h3>
+          <p>{{song.artist}}</p>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
