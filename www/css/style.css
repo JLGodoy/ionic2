@@ -1,1 +1,10 @@
 /* Empty. Add your own CSS if you like */
+.relative{
+position: relative;
+align-items: center;
+}
+
+.absolute{
+  position: absolute;
+  align-items: center;
+}
